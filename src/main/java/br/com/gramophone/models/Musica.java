@@ -12,12 +12,6 @@ public class Musica extends Audio implements Review {
         this.album = album;
     }
 
-//    @Override
-//    public String playThisAudio() {
-//        return super.playThisAudio() + " de " + artist +
-//                " do álbum '" + album + "'.";
-//    }
-
     @Override
     public int getReview() {
         if (getTotalLikes() > 500) {
